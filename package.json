@@ -14,15 +14,18 @@
     "express": "latest",
     "jsonwebtoken": "latest",
     "mongoose": "latest",
-    "socket.io": "latest"
-  },
-  "devDependencies": {
+    "socket.io": "latest",
     "@types/bcryptjs": "latest",
     "@types/cors": "latest",
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
-    "@types/node": "latest",
+    "@types/node": "latest"
+  },
+  "devDependencies": {
     "ts-node-dev": "latest",
     "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
