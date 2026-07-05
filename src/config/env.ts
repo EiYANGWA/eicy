@@ -3,7 +3,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const required = [
-  "PORT",
   "FRONTEND_URL",
   "JWT_SECRET",
   "JWT_EXPIRES_IN",
@@ -20,7 +19,7 @@ for (const key of required) {
 }
 
 export const env = {
-  port: Number(process.env.PORT),
+  port: Number(process.env.PORT) || 5000,
   frontendUrl: process.env.FRONTEND_URL as string,
   jwtSecret: process.env.JWT_SECRET as string,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN as string,
