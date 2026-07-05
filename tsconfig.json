@@ -6,9 +6,9 @@
     "rootDir": "src",
     "outDir": "dist",
     "strict": true,
-    "ignoreDeprecations": "6.0",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node", "express", "jsonwebtoken"]
   },
   "include": ["src"]
 }
